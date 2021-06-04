@@ -1,0 +1,29 @@
+h1 {
+    color: navy
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 201, 251))
+}
+
+head, body, a {
+    text-align: center;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white
+}
+
+p{
+    padding: 3px;
+    background-color: rgba(1, 5, 58, 0.1);
+}
+
+.label{
+    color: gold;
+    text-transform: uppercase
+}
+
+.tag-title{
+    color: navy
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <title>Weather Data App</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+        <style> 
+            /* define map height, otherwise it will be set to 0. */
+            #weatherMap {
+                height: 400px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Weather App</h1>
+
+        <a href="../index.html">Return to main page</a>
+
+        <br><br>
+
+        <div id="weatherMap"></div>
+
+        <div id="root">
+            <!-- Placeholder for database entries -->
+        </div>
+
+        <script src="logs.js"></script>
+    </body>
+</html>

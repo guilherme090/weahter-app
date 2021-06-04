@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <h1>Weather App</h1>
+
+        <a href="logins/index.html">See database</a>
+
+        <p><span class="tag-title">Latitude: </span><span id="latitude"></span>&deg;</p>
+        <p><span class="tag-title">Longitude: </span><span id="longitude"></span>&deg;</p>
+        
+        <p>
+            <span class="tag-title">Location: </span><span id="location"></span><br>
+            <span class="tag-title">Current Temperature: </span><span id="current-temp"></span>&degC (feels like <span id="feels-like"></span>&degC) <br>
+            <span class="tag-title">Current Humidity: </span><span id="current-humidity"></span>% <span class="tag-title">Current Pressure: </span><span id="current-pressure"></span>hPa<br>
+            <br>
+            <span class="tag-title">Conditions: </span><span id="conditions"></span><br>
+            <span class="tag-title">Air Pollution</span><br>
+            <span class="tag-title">CO: </span><span id="concentration-co"></span>μg/m<sup>3</sup><br>
+            <span class="tag-title">NH<sub>3</sub>: </span><span id="concentration-nh3"></span>μg/m<sup>3</sup><br>
+            <span class="tag-title">NO: </span><span id="concentration-no"></span>μg/m<sup>3</sup><br>
+            <span class="tag-title">NO<sub>2</sub>: </span><span id="concentration-no2"></span>μg/m<sup>3</sup><br>
+            <span class="tag-title">O<sub>3</sub>: </span><span id="concentration-o3"></span>μg/m<sup>3</sup><br>
+            <span class="tag-title">PM<sub>2.5</sub>: </span><span id="concentration-pm25"></span>μg/m<sup>3</sup><br>
+            <span class="tag-title">PM<sub>10</sub>: </span><span id="concentration-pm10"></span>μg/m<sup>3</sup><br>
+            <span class="tag-title">SO<sub>2</sub>: </span><span id="concentration-so2"></span>μg/m<sup>3</sup><br>
+        </p>
+
+        <button id="send-coordinates">Check in</button>
+        <br><br>
+
+        <script src="sketch.js"></script>
+    </body>
+</html>
